@@ -1,0 +1,209 @@
+.last-poll .btn-poll {
+  width: 265px;
+  border: 1px solid #cececf;
+  border-radius: 2px;
+  color: #a4a4a4;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.last-poll .btn-poll[disabled] {
+  background: #fafafa;
+}
+.poll {
+  margin-top: 20px;
+  padding: 0 15px 20px;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA6wAAAABCAYAAADaUSPpAAAANklEQVRIx+3OMQoAIAwDwPr/L/Yt1sXJQQQHHe6WBkKgLTMrAAAA7vSIqHnXvOtO8ou9nz/YD64+mJhKKM8AAAAAAElFTkSuQmCC') no-repeat 100% 100%;
+}
+.poll p.date {
+  margin-bottom: 8px;
+}
+.poll .voters {
+  float: right;
+  text-align: center;
+}
+.poll .voters span {
+  display: inline-block;
+  width: 60px;
+  border-radius: 2px;
+  background: #9a9a9a;
+  font-size: 16px;
+  line-height: 22px;
+}
+.poll .results {
+  overflow: hidden;
+  padding-top: 20px;
+}
+.poll .player {
+  float: left;
+}
+.poll .player img {
+  display: block;
+  margin-bottom: 1px;
+  border: 1px solid #dcdcdc;
+}
+.poll .player p {
+  border-radius: 0 0 2px 2px;
+  background: #9a9a9a;
+  line-height: 30px;
+  text-align: center;
+}
+.poll .player + ul {
+  padding-left: 110px;
+}
+.poll dl {
+  margin-top: 2px;
+}
+.poll dt {
+  margin-bottom: 12px;
+}
+.poll li + li {
+  margin-top: 5px;
+}
+.poll hr {
+  display: inline-block;
+  min-width: 1px;
+  height: 10px;
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+.js .poll button {
+  display: inline-block;
+}
+.js .results,
+.poll button,
+.js .show-results button {
+  display: block;
+}
+.js .last-poll .results,
+.js .show-results .results {
+  display: block;
+}
+.poll button {
+  clear: left;
+  margin-top: 12px;
+}
+.last-poll {
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding: 10px 8px 20px 10px;
+  background: #f5f5f5;
+}
+.last-poll form {
+  text-align: center;
+}
+.last-poll ul {
+  text-align: left;
+}
+.last-poll .voters span {
+  margin-bottom: 3px;
+  font-size: 17px;
+  line-height: 24px;
+}
+.last-poll header {
+  position: relative;
+  left: -15px;
+  margin: 0 0 16px;
+}
+.last-poll h1 {
+  margin-bottom: 6px;
+}
+.last-poll form {
+  width: 450px;
+  margin: 0 auto;
+  padding: 16px 0 0;
+}
+.last-poll ul {
+  font-weight: bold;
+}
+.last-poll ul span {
+  font-weight: normal;
+}
+.last-poll input {
+  vertical-align: bottom;
+}
+.last-poll button {
+  margin: 24px 0 0;
+}
+.poll.list-players form {
+  width: 100%;
+}
+.poll.list-players ul {
+  overflow: hidden;
+}
+.poll.list-players li {
+  position: relative;
+  float: left;
+  width: 82px;
+  margin: 0 4px 0 0;
+  text-align: center;
+  display: initial;
+}
+.poll.list-players li div {
+  position: relative;
+  overflow: hidden;
+  height: 85px;
+  border-bottom: 1px solid #fff;
+}
+.poll.list-players li img {
+  position: absolute;
+  border-radius: 500px;
+  top: 10px;
+  left: 0;
+  display: block;
+  -webkit-transition: top 0.4s;
+  -moz-transition: top 0.4s;
+  -ms-transition: top 0.4s;
+  transition: top 0.4s;
+}
+.poll.list-players li label {
+  display: block;
+}
+.poll.list-players li input {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.poll.list-players li span {
+  display: block;
+  padding: 4px 0;
+  border: 1px solid transparent;
+}
+.poll.list-players li:hover img,
+.poll.list-players li input:checked + label img {
+  top: 0;
+}
+.poll.list-players li:hover label span,
+.poll.list-players li input:checked + label span {
+  border-color: #f40027;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAATCAIAAADeafBOAAAAMElEQVQI102JsQ0AIAzDTI7h/9PYm7YsRWKILDsctgpkWgUKWh4PWjntzaD8Pg8XXEzBG/CXUfk2AAAAAElFTkSuQmCC') repeat-x 0 100% #f40027;
+  color: #fff;
+}
+.ie8 .poll.list-players li:hover label span,
+.ie8 .poll.list-players .active label span {
+  border-color: #f40027;
+  background: red;
+  color: #fff;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAATCAIAAADeafBOAAAAMElEQVQI102JsQ0AIAzDTI7h/9PYm7YsRWKILDsctgpkWgUKWh4PWjntzaD8Pg8XXEzBG/CXUfk2AAAAAElFTkSuQmCC') repeat-x 0 100% #f40027;
+}
+.ie8 .poll.list-players li {
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+.ie8 .poll.list-players li input {
+  position: static;
+  visibility: visible;
+}
+.ie8 .poll.list-players li span {
+  cursor: pointer;
+}
+.poll .msg {
+  margin-top: 20px;
+  color: #6c9f49;
+  text-align: center;
+}
+.site .pagination {
+  margin-top: 20px;
+}

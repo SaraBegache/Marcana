@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Marcana</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="libs/style2.css" rel="stylesheet">
+    <link href="css/blog-post.css" rel="stylesheet">
+   
+    <link href="css/bootstrap-combined.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap-datetimepicker.min.css">
+    
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/bootstrap.js"></script>         
+       
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- topbar -->
+
+    <div class="debut-page">
+        <div class="container">
+            <div class="col-xs-12 col-sm-4 sociel">
+                <div class="row"> 
+                    <div class="col-xs-12 col-sm-12">
+                        <div class="input-group recherche">                        
+                                <span class="input-group-btn">
+                                    <button class="btn btn-default botton-recherche" type="button">
+                                        <span class="glyphicon glyphicon-search"></span>
+                                    </button>
+                                </span>
+                                <input type="text" class="form-control input-recherche">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+                <a href="#"><img src="image/logo.png" class="logo-image-maracana"/></a>
+                <div class="col-xs-12 col-sm-7 col-md-7 col-md-offset-3 col-sm-offset-3">
+                        <a href="#"><img src="image/fcb.png"/></a>
+                        <a href="#"><img src="image/twi.png"/></a>
+                        <a href="#"><img src="image/insta.png"/></a>
+                </div> 
+            </div>
+            <div class="col-xs-12 col-sm-4">
+                <div class="champ-contact">
+                    <a href="#">Contact</a>
+                    <a href="#">Recrutement</a>
+                    <a href="#">S'identifier</a>
+                    <br>
+                    <div class="user">
+                       <img src="image/user.png"/> Ksoum Abderrahim 
+                       <div class="btn-group">
+                            <button data-toggle="dropdown" type="button"> 
+                                <img src="image/drop.png"/>
+                            </button>
+                            <ul role="menu" class="dropdown-menu dropdown-menu-default">
+                                <li><a href="#">Action</a></li>
+                                <li class="active"><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li><a href="#">Separated link</a></li>
+                            </ul>
+                        </div>                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Menu -->
+
+
+     <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand hidden-md hidden-lg" href="#">Menu</a>
+            </div>
+            
+            <div class="collapse navbar-collapse" id="main-menu" style="margin-bottom: 0px;">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown"><a data-toggle="dropdown" href="#">Accueil</a></li>
+                    <li class="dropdown"><a data-toggle="dropdown" href="#">Football<b class="caret"></b></a>
+                        <ul class="dropdown-menu jqueryFadeIn ul-left ul-menu-width">
+                            <div class="col-xs-12 col-sm-12 col-md-3">
+                                <li class="dropdown-header">Championnats européens</li>
+                                <li><a href="#">ANGLETERRE</a></li>
+                                <li><a href="#">Espagne</a></li>
+                                <li><a href="#">France</a></li> 
+                                <li><a href="#">Italie</a></li> 
+                                <li><a href="#">Allemagne</a></li>                                
+                                <li><a href="#">Portugal</a></li> 
+                                <li class="dropdown-header">Coupes d'europe</li>
+                                <li><a href="#">La Ligue des champions de l'UEFA</a></li>
+                                <li><a href="#">UEFA Europa League</a></li>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-3">
+                                <li class="dropdown-header">Championnats européens</li>
+                                <li><a href="#">ANGLETERRE</a></li>
+                                <li><a href="#">Espagne</a></li>
+                                <li><a href="#">France</a></li> 
+                                <li><a href="#">Italie</a></li> 
+                                <li><a href="#">Allemagne</a></li>                                
+                                <li><a href="#">Portugal</a></li> 
+                                <li class="dropdown-header">Coupes d'europe</li>
+                                <li><a href="#">La Ligue des champions de l'UEFA</a></li>
+                                <li><a href="#">UEFA Europa League</a></li>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-md-3">
+                                <li class="dropdown-header">Championnats européens</li>
+                                <li><a href="#">ANGLETERRE</a></li>
+                                <li><a href="#">Espagne</a></li>
+                                <li><a href="#">France</a></li> 
+                                <li><a href="#">Italie</a></li> 
+                                <li><a href="#">Allemagne</a></li>                                
+                                <li><a href="#">Portugal</a></li> 
+                                <li class="dropdown-header">Coupes d'europe</li>
+                                <li><a href="#">La Ligue des champions de l'UEFA</a></li>
+                                <li><a href="#">UEFA Europa League</a></li>
+                            </div>
+
+                            <div class="col-xs-12 col-sm-12 col-md-3">
+                                <li class="dropdown-header">Championnats européens</li>
+                                <li><a href="#">ANGLETERRE</a></li>
+                                <li><a href="#">Espagne</a></li>
+                                <li><a href="#">France</a></li> 
+                                <li><a href="#">Italie</a></li> 
+                                <li><a href="#">Allemagne</a></li>                                
+                                <li><a href="#">Portugal</a></li> 
+                                <li class="dropdown-header">Coupes d'europe</li>
+                                <li><a href="#">La Ligue des champions de l'UEFA</a></li>
+                                <li><a href="#">UEFA Europa League</a></li>
+                            </div>
+
+
+                        </ul>
+                    </li>         
+                  
+                    <li class="dropdown"><a data-toggle="dropdown" href="#">Live scores<b class="caret"></b></a>
+                        <ul class="dropdown-menu jqueryFadeIn ul-left">
+                            <li class="dropdown-header">Société1</li>
+                            <li><a href="#">Tableau de bord</a></li>
+                            <li><a href="#">sentation</a></li>
+                            <li class="dropdown-header">Société</li>                                    
+                            <li><a href="#">Liste des </a></li>  
+                            <li><a href="#">Creer une </li>
+                            <li><a href="#">Modifier une </a></li> 
+                               
+                            </li>
+                        </ul>
+                    </li>       
+
+
+                    <li class="dropdown"><a data-toggle="dropdown" href="#">Forum de discussion<b class="caret"></b></a>
+                        <ul class="dropdown-menu jqueryFadeIn ul-left">
+                            <li class="dropdown-header">Société1</li>
+                            <li><a href="#">Tableau de bord</a></li>
+                            <li><a href="#">sentation</a></li>
+                            <li class="dropdown-header">Société</li>                                    
+                            <li><a href="#">Liste des </a></li>  
+                            <li><a href="#">Creer une </li>
+                            <li><a href="#">Modifier une </a></li> 
+                               
+                            </li>
+                        </ul>
+                    </li>       
+
+
+                    <li class="dropdown"><a data-toggle="dropdown" href="#">Distinctions Maracana<b class="caret"></b></a>
+                        <ul class="dropdown-menu jqueryFadeIn ul-left">
+                            <li class="dropdown-header">Société1</li>
+                            <li><a href="#">Tableau de bord</a></li>
+                            <li><a href="#">sentation</a></li>
+                            <li class="dropdown-header">Société</li>                                    
+                            <li><a href="#">Liste des </a></li>  
+                            <li><a href="#">Creer une </li>
+                            <li><a href="#">Modifier une </a></li> 
+                               
+                            </li>
+                        </ul>
+                    </li>       
+
+                    <li class="dropdown"><a data-toggle="dropdown" href="#">Quiz & Jeux<b class="caret"></b></a>
+                        <ul class="dropdown-menu jqueryFadeIn ul-left">
+                            <li class="dropdown-header">Société1</li>
+                            <li><a href="#">Tableau de bord</a></li>
+                            <li><a href="#">sentation</a></li>
+                            <li class="dropdown-header">Société</li>                                    
+                            <li><a href="#">Liste des </a></li>  
+                            <li><a href="#">Creer une </li>
+                            <li><a href="#">Modifier une </a></li> 
+                               
+                            </li>
+                        </ul>
+                    </li>    
+
+
+                    <li class="dropdown"><a data-toggle="dropdown" href="#">Plus<b class="caret"></b></a>
+                        <ul class="dropdown-menu jqueryFadeIn ul-left">
+                            <li class="dropdown-header">Société1</li>
+                            <li><a href="#">Tableau de bord</a></li>
+                            <li><a href="#">sentation</a></li>
+                            <li class="dropdown-header">Société</li>                                    
+                            <li><a href="#">Liste des </a></li>  
+                            <li><a href="#">Creer une </li>
+                            <li><a href="#">Modifier une </a></li> 
+                               
+                            </li>
+                        </ul>
+                    </li>         
+                   
+                    
+                </ul>
+
+                
+
+            </div>
+        </div>
+    </nav>
+
+    
+
+    <!-- bloc page -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-xs-12 journal-page col-centered publicité padding0">
+                pub
+            </div>
+        </div>
+    </div>
+
+
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+
+          
+                <!-- ligue 1 mobils -->
+                <div class="titre-ligue1-div">
+                    <div class="col-md-3 col-sm-3 col-xs-3 padding0">
+                        <p class="titre-ligue1-p"> E match</p>
+                    </div>                    
+                </div>
+
+                <div class="col-md-12 col-sm-12 col-xs-12 padding0">
+                    <table class="table-resultat-live">                            
+                        <tbody>
+                         <tr>
+                            <td><img src="image/logo-equipe-calendrie.jpg" class="table-resultat-live-img"/></td>
+                            <td > Fotbal ligue1 <br><span> Fc Bercelon - Lyon </span><br> samedi 23 avril 2016 <br> canal + </td>
+                            <td><img src="image/logo-equipe-calendrie2.jpg" class="table-resultat-live-img"/></td>
+                        </tr>      
+                        </tbody>
+                    </table>
+
+                    <div class="espac"></div>
+
+                    <div class="col-md-11 col-sm-11 col-xs-11 padding0 col-centered e-match-fiche">
+                        <div class="row margin0 bottom-border-blanc">
+                            <div class="col-md-8 col-sm-8 col-xs-12 padding0">
+                                <ul>
+                                    <li> <a href="#"> Infos </a></li>
+                                    <li> <a href="#"> Plan </a></li>
+                                    <li> <a href="#"> Horaires </a></li>
+                                    <li> <a href="#"> Présentation </a></li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4 col-sm-4 col-xs-12 padding0 float-right">
+                                <p class="p-bottom"> <button type="submit" class="btn btn-default">Voir la fiche de ce bar</button></p>
+                            </div>
+                        </div>
+                        <div class="espac"></div>
+
+                        <div class="row margin0">
+                            <div class="col-md-5 col-sm-5 col-xs-12">
+                                <img src="image/bar.jpg" style='width:100%'/>
+                            </div>
+                            <div class="col-md-5 col-sm-5 col-xs-12 padding0">
+                                <h2> Café beb elzouar </h2>
+                                <p> 3 places </p>
+                                <p> 5889 Alger </p>
+                                <p> site web : www.ggolr.fr </p>
+                                <p> TEL : 0552 998 554 </p>
+                            </div>
+                            <div class="col-md-2 col-sm-2 col-xs-12 padding0">
+                                <div class="rating"><!--
+                                   --><a href="#5" title="Donner 5 étoiles">☆</a><!--
+                                   --><a href="#4" title="Donner 4 étoiles">☆</a><!--
+                                   --><a href="#3" title="Donner 3 étoiles">☆</a><!--
+                                   --><a href="#2" title="Donner 2 étoiles">☆</a><!--
+                                   --><a href="#1" title="Donner 1 étoile">☆</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="row margin0 e-match-sport-diffuser">
+                            <div class="col-md-5 col-sm-5 col-xs-12">
+                                <h3> Sports diffusé : </h3>
+                            </div>
+                            <div class="col-md-7 col-sm-7 col-xs-12">
+                                <p> Football - rugby - Tennis - Afl </p>
+                            </div>
+                        </div>
+
+                        <div class="row margin0 e-match-sport-diffuser">
+                            <div class="col-md-5 col-sm-5 col-xs-12">
+                                <h3> Services : </h3>
+                            </div>
+                            <div class="col-md-7 col-sm-7 col-xs-12 img-restaurant">
+                                <p> <img src="image/monitor.png"/> 5 ecrans<img src="image/instas.png"/> wifi <img src="image/cutlery.png"/> Restaurant   </p>
+                            </div>
+                        </div>
+
+                         <div class="row margin0 e-match-sport-diffuser">
+                            <div class="col-md-5 col-sm-5 col-xs-12">
+                                <h3> Capacité : </h3>
+                            </div>
+                            <div class="col-md-7 col-sm-7 col-xs-12 img-restaurant">
+                                <p> <img src="image/users-group.png"/> Capacité maximum : 500 </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-11 col-sm-11 col-xs-11 padding0 col-centered e-match-fiche">
+                       
+                        <div class="row margin0">
+                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                <img src="image/bar.jpg" style='width:100%'/>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12 padding0">
+                                <h3> Café beb elzouar </h3>
+                                <p></p>
+                                <p> TEL : 0552 998 554 </p>
+                                <p> cité 700 log bannanie mohamadia a coté de tram</p>
+                            </div>
+                            <div class="col-md-2 col-sm-2 col-xs-12 padding0">
+                                <p class="p-bottom"> <button type="submit" class="btn btn-default">+ D'infos</button></p>
+                                <div class="rating"><!--
+                                   --><a href="#5" title="Donner 5 étoiles">☆</a><!--
+                                   --><a href="#4" title="Donner 4 étoiles">☆</a><!--
+                                   --><a href="#3" title="Donner 3 étoiles">☆</a><!--
+                                   --><a href="#2" title="Donner 2 étoiles">☆</a><!--
+                                   --><a href="#1" title="Donner 1 étoile">☆</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-md-11 col-sm-11 col-xs-11 padding0 col-centered e-match-fiche">
+                       
+                        <div class="row margin0">
+                            <div class="col-md-4 col-sm-4 col-xs-12">
+                                <img src="image/bar.jpg" style='width:100%'/>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-xs-12 padding0">
+                                <h3> Café beb elzouar </h3>
+                                <p></p>
+                                <p> TEL : 0552 998 554 </p>
+                                <p> cité 700 log bannanie mohamadia a coté de tram</p>
+                            </div>
+                            <div class="col-md-2 col-sm-2 col-xs-12 padding0">
+                                <p class="p-bottom"> <button type="submit" class="btn btn-default">+ D'infos</button></p>
+                                <div class="rating"><!--
+                                   --><a href="#5" title="Donner 5 étoiles">☆</a><!--
+                                   --><a href="#4" title="Donner 4 étoiles">☆</a><!--
+                                   --><a href="#3" title="Donner 3 étoiles">☆</a><!--
+                                   --><a href="#2" title="Donner 2 étoiles">☆</a><!--
+                                   --><a href="#1" title="Donner 1 étoile">☆</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                     <div class="col-md-11 col-sm-11 col-xs-11 padding0 col-centered e-match-fiche">
+                       
+                        <div class="row margin0">
+                            <div class="col-md-10 col-sm-10 col-xs-12 padding0">
+                                <h3> Café beb elzouar </h3>
+                                <p></p>
+                                <p> TEL : 0552 998 554 </p>
+                                <p> cité 700 log bannanie mohamadia a coté de tram</p>
+                            </div>
+                            <div class="col-md-2 col-sm-2 col-xs-12 padding0">
+                                <p class="p-bottom"> <button type="submit" class="btn btn-default">+ D'infos</button></p>
+                                <div class="rating"><!--
+                                   --><a href="#5" title="Donner 5 étoiles">☆</a><!--
+                                   --><a href="#4" title="Donner 4 étoiles">☆</a><!--
+                                   --><a href="#3" title="Donner 3 étoiles">☆</a><!--
+                                   --><a href="#2" title="Donner 2 étoiles">☆</a><!--
+                                   --><a href="#1" title="Donner 1 étoile">☆</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     <div class="col-md-11 col-sm-11 col-xs-11 padding0 col-centered e-match-fiche">
+                       
+                        <div class="row margin0">
+                            <div class="col-md-10 col-sm-10 col-xs-12 padding0">
+                                <h3> Café beb elzouar </h3>
+                                <p></p>
+                                <p> TEL : 0552 998 554 </p>
+                                <p> cité 700 log bannanie mohamadia a coté de tram</p>
+                            </div>
+                            <div class="col-md-2 col-sm-2 col-xs-12 padding0">
+                                <p class="p-bottom"> <button type="submit" class="btn btn-default">+ D'infos</button></p>
+                                <div class="rating"><!--
+                                   --><a href="#5" title="Donner 5 étoiles">☆</a><!--
+                                   --><a href="#4" title="Donner 4 étoiles">☆</a><!--
+                                   --><a href="#3" title="Donner 3 étoiles">☆</a><!--
+                                   --><a href="#2" title="Donner 2 étoiles">☆</a><!--
+                                   --><a href="#1" title="Donner 1 étoile">☆</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>                
+            </div>
+
+
+
+            <div class="col-lg-4 sidebar">
+               
+                <div class="espac">
+                </div>
+
+
+                <br>
+                <div class="maracana-match-border">
+                     <a href="#"> <p> <img src="image/logo2.png"> Match Les matches prés de chez vous </p> </a> 
+                </div>
+
+                <br>
+
+                <div class="row ombr margin0" >
+                    <form class="form-horizontal" role="form" method="post" action="index.php">
+                        <div class="form-group margin0 e-match-suit-form">
+                            <div class="col-sm-9">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Rechercher" value="">
+                            </div>
+                            <div class="col-sm-3 right-float">
+                                <input id="submit" name="submit" type="submit" value="OK" class="btn btn-primary">
+                            </div>
+                        </div>
+                    </form>
+
+                    <img src="image/map-e-match.jpg" class="e-match-suit-form-img"/>
+
+                </div>
+                
+                
+                <div class="row ombr margin0" >
+                     <div class="col-md-12 col-sm-12 col-xs-12 padding0 facebook-text">
+                            <div class="col-md-3 col-sm-3 col-xs-3">
+                                <img src="image/logo2.png"/>
+                            </div>
+                            <div class="col-md-9 col-sm-9 col-xs-9">                            
+                                <h3> Maracana Foot </h3>
+                                <p>3 500 000 mentions j’aime</p>
+                            </div>
+                            <div class="sharefcb">
+                                   <a href="#">  <img src="image/fcbpetite.png"/> j'aime cette page</a>
+                            </div>
+                     </div>
+                     <div class="col-md-12 col-sm-12 col-xs-12 paddin-facebook-pub">
+                        <div class="col-md-12 col-sm-12 col-xs-12 cadre-shar-fcb">
+                            <p> Soyez le premier de vos amis à aimer ça. </p>
+                            <div class="col-md-2 col-sm-2 col-xs-2 "><div class="carre-pub-fcb"></div></div>
+                            <div class="col-md-2 col-sm-2 col-xs-2 "><div class="carre-pub-fcb"></div></div>
+                            <div class="col-md-2 col-sm-2 col-xs-2 "><div class="carre-pub-fcb"></div></div>
+                            <div class="col-md-2 col-sm-2 col-xs-2 "><div class="carre-pub-fcb"></div></div>
+                            <div class="col-md-2 col-sm-2 col-xs-2 "><div class="carre-pub-fcb"></div></div>
+                        </div>                        
+                     </div>                    
+                </div>
+
+
+                <div class="row margin0">
+                    <div class="titre-ligue1-div">
+                        <div class="col-md-12 col-sm-12 col-xs-12 padding0">
+                            <p class="titre-ligue1-p"> Suiver nous </p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-sm-12 col-xs-12 padding0 sharsid">
+                     <div class="col-md-1 col-sm-1 col-xs-1 padding0"></div>
+                        <div class="col-md-2 col-sm-2 col-xs-2 padding0">
+                            <a href="#">
+                                <img src="image/fcbs.png"/>
+                            </a>
+                        </div>
+                        <div class="col-md-2 col-sm-2 col-xs-2 padding0">
+                            <a href="#">
+                                <img src="image/twits.png"/>
+                            </a>
+                        </div>
+                        <div class="col-md-2 col-sm-2 col-xs-2 padding0">
+                            <a href="#">
+                                <img src="image/mobil.png"/>
+                            </a>
+                        </div>
+                        <div class="col-md-2 col-sm-2 col-xs-2 padding0">
+                            <a href="#">
+                                <img src="image/msg.png"/>
+                            </a>
+                        </div>
+                        <div class="col-md-2 col-sm-2 col-xs-2 padding0">
+                            <a href="#">
+                                <img src="image/instas.png"/>
+                             </a>
+                        </div>
+                     </div>
+                 </div>
+
+
+
+                
+
+            </div>
+        </div>
+    </div>
+
+
+
+<footer>
+
+    <div class="menufotter">
+        <div class="container">
+            <div class="row">
+                <div class="container">
+                    <li> <a href="#"> Compte </a></li>
+                    <li> <a href="#"> Facebook </a></li>
+                    <li> <a href="#"> Twetter </a></li>
+                    <li> <a href="#"> Rss </a></li>
+                    <li> <a href="#"> Alert </a></li>
+                    <li> <a href="#"> Newslatter </a></li>
+                    <li> <a href="#"> Mobile </a></li>
+                    <li> <a href="#"> Contact </a></li>
+                    <li> <a href="#"> langue </a></li>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="fotterbas">
+        <div class="container">
+            <div class="row">
+                <div class="container">
+                        <div class="col-md-3 col-sm-3 col-xs-12">
+                        </div>
+                        <div class="col-md-1 col-sm-1 col-xs-2">
+                            <img src="image/ligue1.jpg"/>
+                            <p> Ligue 1 </p>
+                        </div>
+                         <div class="col-md-1 col-sm-1 col-xs-2">
+                            <img src="image/1ligue.jpg"/>
+                            <p> Premiere league </p>
+                        </div>
+                         <div class="col-md-1 col-sm-1 col-xs-2">
+                            <img src="image/liga.jpg"/>
+                            <p> Liga BBVA</p>
+                        </div>
+                         <div class="col-md-1 col-sm-1 col-xs-2">
+                            <img src="image/serie.jpg"/>
+                            <p> Serie 1  </p>
+                        </div>
+                         <div class="col-md-1 col-sm-1 col-xs-2">
+                            <img src="image/bandasliga.jpg"/>
+                            <p> Bundesliga </p>
+                        </div>
+                           
+
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                        <br>
+                            <div class="col-md-1 col-sm-1 col-xs-12">
+                            </div>
+                            <div class="col-md-8 col-sm-12 col-xs-12">                      
+                                <p class="footerp">
+                                    N°01 rue de la Liberté, Alger. - 021 90 25 64 - info@maracana.com. Maracana Foot - Copyright 2015.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+       
+</footer>
+
+<script type="text/javascript" src="js/bootstrap-datetimepicker.min.js"> </script>
+<script type="text/javascript">
+    $('#datetimepicker').datetimepicker({
+    format: 'dd/MM/yyyy hh:mm:ss',
+    language: 'fr-FR'
+    });
+</script>
+
+<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script> 
+<script src="libs/jquery.tickerNews.min.js"></script> 
+<script src="js/jquery.dataTables.min.js"></script> 
+<script src="js/maracana.js"></script> 
+
+
+
+</body>
+
+</html>
+          
+            
